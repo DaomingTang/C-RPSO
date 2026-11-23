@@ -1,6 +1,6 @@
 function [Best_score, Eval_Num] = C_RPSO(fhd, D, FESmax, Xmin, Xmax, func_num)
-%% ===== Parameters (customized but legal) =====
-N = 100;                          % population size (user-defined)
+%% ===== Parameters  =====
+N = 100;                          % population size 
 FES = 0;           % iterations derived from FEs
 Eval_Num = 0;
 elit_rate = 0.15;
