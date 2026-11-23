@@ -12,7 +12,7 @@ fitness = zeros(N,1);
 for i = 1:N
     fitness(i) = feval(fhd, X(i,:)', func_num);
 end
-Eval_Num = Eval_Num + N;
+FES = FES + N;
 
 Pfit = fitness;
 [Best_score, idx] = min(Pfit);
